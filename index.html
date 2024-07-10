@@ -15,6 +15,24 @@
             <input type="text" name="activity">
             <button type="submit">投稿</button>
         </form>
+
+        <form action="/update" method="POST">
+            <input type="text" name="updateActivity">
+            <button type="submit">変更</button>
+        </form>
+
+        <form action="/delete" method="POST">
+            <input type="radio" name="number" id="one" value="0">
+            <label for="one">1</label>
+            <br>
+            <input type="radio" name="number" id="two" value="1">
+            <label for="two">2</label>
+            <br>
+            <input type="radio" name="number" id="three" value="2">
+            <label for="three">3</label>
+            <br>
+            <button type="submit">削除</button>
+        </form>
     </main>
 </body>
 </html>
